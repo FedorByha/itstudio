@@ -1,0 +1,45 @@
+.hero {
+    &-section {
+        background-image: url("../../images/hero-background.jpg");
+        background-size: cover;
+        height: 900px;
+    }
+
+    &-wrapper {
+        padding-top: 319px;
+    }
+
+    &-desc {
+        color: $main-white-color;
+        text-align: center;
+    }
+
+    &-title {
+        font-family: Montserrat;
+        font-size: 48px;
+        font-weight: 800;
+        line-height: 64.36px;
+        text-align: center;
+        max-width: 829px; 
+        color: $main-white-color;
+        margin: 0 auto;
+    }
+
+    &-btn {
+        background-color: $main-accent-color;
+        box-shadow: 0px 0px 10px 0px #6F6F6F40;
+        border: none;
+        border-radius:  30px;
+        height: 45px;
+        width: 200px;
+
+        font-family: Montserrat;
+        color: $main-white-color;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 19.5px;
+        text-align: center;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+}
