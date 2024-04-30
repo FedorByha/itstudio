@@ -2,25 +2,77 @@
 
     &-section {
         padding: 100px 0 130px 0;
+        background-image:(linear-gradient(to bottom, rgb(80, 77, 194) 51%, rgb(255, 255, 255) 49%));
+    }
+
+    &-top-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        margin-bottom: 70px;
+    }
+
+    &-top-btn {
+        height: 45px;
+        width: 200px;
+
+        background-color: $main-accent-color;
+        color: #fff;
+        border-radius: 30px;
+        border: none;
     }
 
     &-title {
-        text-align: center;
 
         font-family: Montserrat;
         font-size: 36px;
         font-weight: 700;
         line-height: 52.66px;
-        text-align: center;
+        text-align: left;
+        max-width: 540px;
 
-        color: $main-text-color;
+        color: #fff;
 
     }
 
     &-info-list {
         display: flex;
         gap: 30px;
+        justify-content: center;
+
+        padding-bottom: 85px;
+        border-bottom: 1px solid $works-list-border-color;
     }
 
-    
+
+    &-img {
+        margin-bottom: 15px;
+    }
+
+    &-number {
+        color: $main-accent-color;
+    }
+
+    &-item-title {
+        font-family: Montserrat;
+        font-size: 18px;
+        font-weight: 600;
+        line-height: 21.94px;
+        text-align: left;
+
+    }
+
+    &-item-desc {
+        color: $unaccent-color;
+        margin-top: 37px;
+        margin-bottom: 47px;
+    }
+
+    &-item-link {
+        color: $main-accent-color;
+        text-decoration: underline;
+    }
+
+
 }

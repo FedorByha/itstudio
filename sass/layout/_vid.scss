@@ -1,0 +1,78 @@
+.vid {
+
+    &-section {
+       padding-top: 70px;
+       padding-bottom: 85px;
+       background-image: url("../../images/vid-background.png");
+       background-size: contain;
+       background-repeat: no-repeat;
+
+       border: 1px solid #E0E0E0
+    }
+
+    &-title {
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 30px;
+
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52.66px;
+        text-align: center;
+        color: #fff;
+
+    }
+
+    &-desc {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 25.36px;
+        text-align: center;
+        color: #fff;
+
+        margin: 0 auto;
+        margin-bottom: 70px;
+
+    }
+
+    &-btn {
+        border: 1px solid #FFFFFF;
+        width: 300px;
+        height: 100px;
+        background-color: transparent;
+        border-radius: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 21px;
+        
+        cursor: pointer;
+    }
+
+    &-svg-span {
+        font-family: Montserrat;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 25.36px;
+        text-align: left;
+        color: #fff;
+    }
+
+
+}
+
+.video-wrapper {
+    background-image: url("../../images/vid.png");
+    width: 970px;
+    height: 430px;
+    margin: 0 auto;
+    border-radius: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

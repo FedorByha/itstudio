@@ -1,4 +1,9 @@
 .dev {
+
+    &-info-desc {
+        margin-bottom: 42px;
+    }
+
     &-section {
         background-color: #F6F6F8;
         padding-top: 152px;
@@ -11,9 +16,12 @@
         justify-content: center;
         align-items: center;
 
+
         &-item {
             display: flex;
             flex-direction: column;
+            align-items: center;
+            justify-content: center;
         }
 
         &-item-title {
@@ -22,7 +30,6 @@
             font-weight: 400;
             line-height: 52.66px;
             text-align: left;
-
         }
 
         &-item-desc {
@@ -31,15 +38,20 @@
             font-weight: 400;
             line-height: 25.36px;
             text-align: left;
-
+            margin-top: 0;
         }
 
-        &-svg {
-            margin-bottom: 0px;
-            padding-bottom: 0;
+
+
+
+        &-info-wrapper {
+            display: flex;
+            justify-content: space-between;
         }
+
 
     }
+
 
     &-info  {
 
@@ -86,4 +98,13 @@
         }
 
     }
+}
+
+
+.dev-item-top-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
 }

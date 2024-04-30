@@ -1,0 +1,43 @@
+.projects {
+
+    &-section {
+        padding-top: 100px;
+        padding-bottom: 130px;
+        background-color: $projects-bc-color;
+    }
+
+    &-title {
+        font-family: Montserrat;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52.66px;
+        text-align: center;
+        margin-bottom: 28px;
+    }
+
+    &-desc {
+        color: $unaccent-color;
+        max-width: 730px;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 100px;
+    }
+
+    &-list {
+        display: flex;
+        gap: 30px;
+        justify-content: center;
+        margin-bottom: 50px;
+    }
+
+    &-btn {
+        height: 45px;
+        width: 200px;
+
+        background-color: $main-accent-color;
+        color: #fff;
+        border-radius: 30px;
+        border: none;
+        margin: 0 auto;
+    }
+}

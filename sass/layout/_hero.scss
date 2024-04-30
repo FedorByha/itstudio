@@ -1,8 +1,9 @@
 .hero {
     &-section {
-        background-image: url("../../images/hero-background.jpg");
+        background-image: url("../images/hero-background.jpg");
         background-size: cover;
-        height: 900px;
+        padding-top: 219px;
+        padding-bottom: 335px;
     }
 
     &-wrapper {
