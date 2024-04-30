@@ -491,7 +491,7 @@ a {
 .vid-section {
   padding-top: 70px;
   padding-bottom: 85px;
-  background-image: url("../../images/vid-background.png");
+  background-image: url("../images/vid-background.png");
   background-size: contain;
   background-repeat: no-repeat;
   border: 1px solid #E0E0E0;
@@ -545,7 +545,7 @@ a {
 }
 
 .video-wrapper {
-  background-image: url("../../images/vid.png");
+  background-image: url("../images/vid.png");
   width: 970px;
   height: 430px;
   margin: 0 auto;
